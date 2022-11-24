@@ -1,0 +1,23 @@
+#box {
+    display: flex;
+    width: 640px;
+    overflow: hidden;
+    margin: auto;
+}
+#controle, #controle2 {
+    text-align: center;
+    padding: 10px;
+}
+
+#controle2 span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: inline-block;
+    cursor: pointer;
+    margin: 2px;
+}
+#controle2 span.active {
+    background-color: #000;
+}

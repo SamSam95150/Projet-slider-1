@@ -1,0 +1,10 @@
+#box {
+    display: flex;
+    width: 640px;
+    overflow: hidden;
+    margin: auto;
+}
+#controle {
+    text-align: center;
+    padding: 10px;
+}
